@@ -1,0 +1,34 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <title>TodoApp</title>
+  <base href="https://prethiv.github.io/TodoAppAngular">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();   
+    });
+
+    ( function( $ ) {
+
+"use strict";
+
+$(".card").tilt({
+  maxTilt: 15,
+  perspective: 1400,
+  easing: "cubic-bezier(.03,.98,.52,.99)",
+  speed: 1200,
+  glare: true,
+  maxGlare: 0.2,
+  scale: 1.04
+});
+
+}( jQuery ) );
+    </script>
+
+<style>html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}@media print{*,:after,:before{color:#000!important;text-shadow:none!important;background:0 0!important;box-shadow:none!important}}*{box-sizing:border-box}:after,:before{box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}</style><link rel="stylesheet" href="styles.781c7b73879f44b4.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.781c7b73879f44b4.css"></noscript></head>
+<body>
+  <app-root></app-root>
+<script src="runtime.3fddd115ec17a4b3.js" type="module"></script><script src="polyfills.8ec1c6270ce1cb29.js" type="module"></script><script src="main.66657d4f1980b18c.js" type="module"></script>
+
+</body></html>
